@@ -1,0 +1,1 @@
+HTTP es un protocolo de comunicación entre el cliente y servidor. Permite que las solicitudes y respuestas entre clientes y servidores tengan un determinado formato a respetar para que se puedan comunicar sin problemas. Es clave para el funcionamiento de internet permitiendo la carga de páginas web. La desventaja es que no es cifrado.
