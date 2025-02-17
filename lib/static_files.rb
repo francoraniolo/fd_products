@@ -9,9 +9,9 @@ class StaticFiles
     request = Rack::Request.new(env)
 
     case request.path_info
-    when "/openapi.yaml"
+    when "/openapi"
       serve_static_file("public/openapi.yaml", "application/yaml", "no-store")
-    when "/AUTHORS"
+    when "/authors"
       serve_static_file("public/AUTHORS", "text/plain", "max-age=86400")
     else
       @app.call(env)
