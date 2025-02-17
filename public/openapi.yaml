@@ -1,0 +1,18 @@
+openapi: 3.0.0
+info:
+  title: Fudo Challenge
+  version: 1.0.0
+paths:
+  /auth:
+    post:
+      summary: Authenticate and get a token
+      requestBody:
+        required: true
+      responses:
+        "200":
+          description: Authentication successful
+  /products:
+    get:
+      summary: Get list of products (requires authentication)
+    post:
+      summary: Create a product asynchronously (requires authentication)

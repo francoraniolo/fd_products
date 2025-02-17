@@ -1,0 +1,44 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    base64 (0.2.0)
+    bigdecimal (3.1.9)
+    connection_pool (2.5.0)
+    json (2.10.1)
+    logger (1.6.5)
+    pg (1.5.9)
+    rack (3.1.9)
+    rackup (2.1.0)
+      rack (>= 3)
+      webrick (~> 1.8)
+    redis (5.3.0)
+      redis-client (>= 0.22.0)
+    redis-client (0.23.2)
+      connection_pool
+    sequel (5.89.0)
+      bigdecimal
+    sidekiq (7.3.8)
+      base64
+      connection_pool (>= 2.3.0)
+      logger
+      rack (>= 2.2.4)
+      redis-client (>= 0.22.2)
+    webrick (1.8.1)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  json
+  pg
+  rack
+  rackup
+  redis
+  sequel
+  sidekiq
+
+RUBY VERSION
+   ruby 3.2.2p53
+
+BUNDLED WITH
+   2.4.10
